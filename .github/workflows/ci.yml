@@ -11,3 +11,7 @@ jobs:
     steps:
       - name: Say hello
         run: echo "🎉 Git push 됐어요! CI 실행 중!"
+
+      - name: Force failure
+        run: exit 1
+
