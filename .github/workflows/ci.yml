@@ -13,5 +13,5 @@ jobs:
         run: echo "🎉 Git push 됐어요! CI 실행 중!"
 
       - name: Force failure
-        run: exit 1
+        run: exit 0
 
