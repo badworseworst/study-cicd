@@ -1,0 +1,13 @@
+name: My First CI
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say hello
+        run: echo "🎉 Git push 됐어요! CI 실행 중!"
